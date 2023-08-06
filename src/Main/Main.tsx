@@ -1,7 +1,8 @@
 import React from 'react';
+import { TimerBlock } from '../TimerBlock/TimerBlock';
 
 export const Main = () => (
   <div className="main">
-    <h1>from main</h1>
+    <TimerBlock />
   </div>
 );

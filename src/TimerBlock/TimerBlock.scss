@@ -1,0 +1,43 @@
+.timer-block {
+  width: 70%;
+  height: 400px;
+
+  background-color: rgba(9, 33, 67, 0.8);
+  box-shadow: 24px 26px 4px -11px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  border-radius: 36px;
+
+  &--title {
+    margin: 20px;
+    font-size: 40px;
+
+    font-family: Popins;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-weight: 90;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .timer-block {
+    width: 80%;
+
+    &--title {
+      margin: 20px;
+      font-size: 25px;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .timer-block {
+    width: 98%;
+
+    &--title {
+      margin: 20px;
+      font-size: 20px;
+    }
+  }
+}
