@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;900&display=swap');
+
+@import './styles/mixins';
+@import './styles/normalize';
 
 @import './Main/main.scss';
 @import './TimerBlock/TimerBlock.scss';
+@import './Timer/timer.scss';
+@import './CountdownTimer/countdownTimer.scss';

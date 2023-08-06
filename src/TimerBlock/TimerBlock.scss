@@ -7,7 +7,16 @@
   backdrop-filter: blur(8px);
   border-radius: 36px;
 
-  &--title {
+  @media (max-width: 1024px) {
+    width: 80%;
+
+    &__title {
+      margin: 20px;
+      font-size: 15px;
+    }
+  }
+
+  &__title {
     margin: 20px;
     font-size: 40px;
 
@@ -18,26 +27,15 @@
     font-weight: 90;
     text-align: center;
   }
-}
 
-@media (max-width: 1024px) {
-  .timer-block {
-    width: 80%;
-
-    &--title {
-      margin: 20px;
-      font-size: 25px;
-    }
-  }
-}
-
-@media (max-width: 600px) {
-  .timer-block {
+  @include onPhone {
     width: 98%;
+    width: 500px;
+    height: 200px;
 
-    &--title {
-      margin: 20px;
-      font-size: 20px;
+    &__title {
+      margin: 0;
+      font-size: 25px;
     }
   }
 }

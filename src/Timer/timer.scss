@@ -1,0 +1,38 @@
+.timer {
+  width: 150px;
+  height: 150px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: #080F1A;
+  color: white;
+  border-radius: 22px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+
+
+  &__time {
+    font-weight:  900;
+    font-size: 64px;
+  }
+
+  &__type-of-time {
+    color: #A5DEFF;
+    text-transform: uppercase;
+    font-weight: 300;
+
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; 
+  }
+
+  @include onPhone {
+    width: 86px;
+    height: 86px;
+
+    &__time {
+      font-size: 30px;
+    }
+  }
+}

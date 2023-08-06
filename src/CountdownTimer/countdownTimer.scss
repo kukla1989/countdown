@@ -1,0 +1,12 @@
+.countdown-timer {
+  padding: 0 70px;
+
+  display: flex;
+  justify-content: space-around;
+
+  @include onPhone {
+    padding: 0;
+
+    justify-content: space-around;
+  }
+}
