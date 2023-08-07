@@ -17,7 +17,7 @@ export const Skill: React.FC<Props> = ({ title, points, imagePath }) => {
     >
       <div className="skill__title">{title}</div>
       <div className="skill__main">
-        <img src={`/imgs/${imagePath}`} alt={title} className="skill__img" />
+        <img src={`imgs/${imagePath}`} alt={title} className="skill__img" />
 
         <div className="skill__points">
           {points.map(point => (
