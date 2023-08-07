@@ -1,9 +1,3 @@
-# React TypeScript Starter Pack
+# countDown project
 
-To use this template click `Use this template`
-
-### Available Scripts
-
-`Deploy` - available to deploy your application to gh-pages
-
-`SCSS Preprocessor` - available to write your styles with modern style language
+this project was deployed [here](https://kukla1989.github.io/countdown/)
