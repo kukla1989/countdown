@@ -8,7 +8,27 @@
   background-image: url('/imgs/background_drops.png');
   background-size: cover;
 
-  & > :last-child {
+  &> :last-child {
     margin-bottom: 50px;
+  }
+
+  @include onPhone {
+    gap: 10px
+  }
+
+  &__title {
+    margin: 40px;
+    width: 70%;
+
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 15px rgba(255, 255, 255, 0.8);
+
+    @include onPhone {
+      margin: 13px;
+      width: 100%;
+      font-size: 25px;
+    }
   }
 }

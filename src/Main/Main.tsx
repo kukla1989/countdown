@@ -8,6 +8,10 @@ const points = getPoints();
 export const Main = () => (
   <div className="main">
     <TimerBlock />
+    <div className="main__title">
+      Mastering these essential skills will transform your life and
+      enhance our future business, regardless of any circumstances you encounter:
+    </div>
     <Skill title="Time" points={points.time} imagePath="time.svg" />
     <Skill title="sport" points={points.sport} imagePath="sport.svg" />
     <Skill title="English" points={points.english} imagePath="english.svg" />
